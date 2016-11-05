@@ -2,8 +2,12 @@
 Sample Asp.NET Core web api implementation example
 
 
-Get Product list
+<b>Get Product list</b><br/>
+<ul>
+<li>http://localhost:[PORT]/api/product</li>
+<li>http://localhost:[PORT]/api/product?name=a&pageSize=5&pageNumber=1</li>
+<li>http://localhost:[PORT]/api/product?pageSize=12&pageNumber=1</li>
+</ul>
 
-http://localhost:[PORT]/api/product <br/>
-http://localhost:[PORT]/api/product?name=a&pageSize=5&pageNumber=1<br/>
-http://localhost:[PORT]/api/product?pageSize=12&pageNumber=1<br/>
+<b>Get Product By Id</b><br>
+http://localhost:[PORT]/api/product/product/1
